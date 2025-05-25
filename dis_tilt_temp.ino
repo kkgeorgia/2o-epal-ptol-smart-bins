@@ -1,13 +1,13 @@
 #include <WiFiS3.h>
 #include <ThingSpeak.h>
 
-char ssid[] = "CYTA1BBF";       
-char pass[] = "ZTETG8FGB303788";
+char ssid[] = "WIFI_SSID";       
+char pass[] = "WIFI_PASSWORD";
 
 WiFiClient client;
 
-unsigned long channelID = 2902543;  
-const char* writeAPIKey = "6W5Q7JYJDM7YT2PO";
+unsigned long channelID = [Channel ID];  
+const char* writeAPIKey = "Write API Key";
 
 #define TRIG_PIN 9
 #define ECHO_PIN 10
